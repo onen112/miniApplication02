@@ -1,0 +1,63 @@
+/* pages/rank/rank.wxss */
+.rank_top{
+  height: 400rpx;
+
+  
+}
+.rank_img{
+  height: 220rpx;
+  width: 220rpx;
+  border-radius: 10rpx;
+  margin-top: 50rpx;
+  margin-left: 40rpx;
+}
+.rank_box{
+  color: #fff;
+ float: right;
+  width: 400rpx;
+  margin-top: 50rpx;
+  margin-right: 20rpx;
+}
+.rank_inf{
+  width: 300rpx;
+  display: inline-block; 
+  font-size: 22rpx;
+  margin-right: 20rpx;
+  margin-top: 80rpx;
+  color: #b2c9e8;
+}
+.rankList{
+ 
+  color: #333;
+  margin: 20rpx;
+  height: 80rpx;
+  width: 710rpx;
+  line-height: 36rpx;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin-top: 20rpx;
+}
+.mic_inf{
+  display: inline-block;
+
+}
+.rank_index{
+  color: #989898;
+  margin-left: 20rpx;
+  margin-right: 30rpx;
+  float: left;
+  margin-top: 20rpx;
+}
+.ar{
+  font-size: 22rpx;
+  color:#b7b7b7;
+  /* width: 700rpx; */
+  /* overflow: hidden; */
+}
+.rank_play{
+  float: right;
+  margin-top: 20rpx;
+  margin-right: 30rpx;
+  font-size: 30rpx;
+}

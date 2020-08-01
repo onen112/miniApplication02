@@ -1,0 +1,4 @@
+/* pages/play/play.wxss */
+.video {
+  padding-left: 50rpx;
+}

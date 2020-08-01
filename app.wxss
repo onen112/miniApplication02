@@ -1,0 +1,36 @@
+/**app.wxss**/
+.container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 200rpx 0;
+  box-sizing: border-box;
+} 
+page{
+  background-color: #ffffff;
+}
+
+
+@font-face {font-family: "iconfont";
+  src: url('//at.alicdn.com/t/font_1970764_1eu97t95jfy.eot?t=1595905418322'); /* IE9 */
+  src: url('//at.alicdn.com/t/font_1970764_1eu97t95jfy.eot?t=1595905418322#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('data:application/x-font-woff2;charset=utf-8;base64,d09GMgABAAAAAALgAAsAAAAABpAAAAKRAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHEIGVgCCcAqBHIEhATYCJAMICwYABCAFhG0HMBvHBciusCnjrjh3nM6e2tumEYhv268gECAe/n+sdt+XFfe4URRJoomkiU6dCp44VC0BD4XsIbKZOvs/lzlAo/L8sTxFqNAX8ltOX5qDPT/lNj2lgOwm3AZv7vYeQU0k0scDCTzM0yxNZF97gmuQvfr7Orl5rr17IgVSnGliGdUJX574fOLe6f+/Ou8Cme+8y2lvGmvSpC7AOKAA96ZoCxdI6A3Tyxc4EMcJdJjRUjhZ7I5QV+hxgbgfeBbUC35FYak2oaVhaREvQNWWHqLvwPPo+/HPICKSmumKS/fmLoxOucnADd+AmwEBAgS0uiJjCyjEtcb4BSXBWCUd8bIFcKzS4JT7ZmATRzUL9tfp4i4wBSXPJHWyRxVMoFDMBnAeMcq7clfXQD+Pyhf6p/pSKdOaUkII379O5O1afT98/fn12Kuha09zeTEVaoxpjldkFfl6fMj/H0PlByqCIswkSy5r7ou8q/vBB/vX/fg9f8VefyaoL91Hy51FUsDf/nwUjWg2ynID0HYSR/CzpANbipBreypXqw0kG0o3UdWhA03IPeBvqmH4ztKhzfD9OVtNZ8jaLJGFsYWq0zZatNlHh03L1Z0GiZIo7djwCBD6vCDp8Q1Zn1eyMH5RjfhHi77A6HAjBrfstBJz81jIUnLRfsDA4dRYuzbj0j15l9iSvDxin0nyIIT9lpVTS0pJlpiRX72BqkEjnOACnEZxzJgJh+Rox1fNht1uaLpRx+EEmo4JYlHEhWwPUMDBUiborJqVz+8Rz0XMIh1NufAZEbmgd9TX0RtALjXpoKZHuSZ35RlQykCGYAm0AINILMZQ1jwoRByqw58QzQx1TTszVNPZXpf83S7ooI0pTL+s5RYbK/UAAAAAAA==') format('woff2'),
+  url('//at.alicdn.com/t/font_1970764_1eu97t95jfy.woff?t=1595905418322') format('woff'),
+  url('//at.alicdn.com/t/font_1970764_1eu97t95jfy.ttf?t=1595905418322') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+ */
+  url('//at.alicdn.com/t/font_1970764_1eu97t95jfy.svg?t=1595905418322#iconfont') format('svg'); /* iOS 4.1- */
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-bofang:before {
+  content: "\ec73";
+}
+

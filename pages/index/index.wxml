@@ -1,0 +1,22 @@
+<view class="search">
+    <view class="input_box">
+    <navigator url="../test/test">
+      <input class="input" type="text" placeholder="搜索歌曲"/>
+    </navigator>  
+    </view>
+</view>
+
+<view class="rank_box">
+  
+  <view class="rank" wx:for="{{rankList}}">
+  <navigator url="../rank/rank" bindtap="jump" data-index="{{index}}">
+    <image class="rank_img" src="{{item.coverImgUrl}}"></image>
+    <text class="update">{{item.updateFrequency}}</text>
+    <view class="rank_item_box">
+    <view wx:for="{{item.tracks}}" class="rank_item">
+      <view>{{index+1}}.{{item.first}}</view>
+    </view>
+    </view>
+  </navigator>
+  </view>
+</view>

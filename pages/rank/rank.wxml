@@ -1,0 +1,21 @@
+<!--pages/rank/rank.wxml-->
+<view class="rank_top" style="background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url({{rankOn.coverImgUrl}});">
+  <image class="rank_img" src="{{rankOn.coverImgUrl}}"></image>
+  <view class="rank_box">
+    <view class="rank_title">{{rankOn.name}}</view>
+    <text class="rank_inf">{{rankOn.description}}</text>
+  </view>
+</view>
+
+<view class="rank_itemBox">
+  <view class="rankList" wx:for="{{rankList}}">
+  <navigator url="../play/play" data-index="{{index}}" bindtap="jump">
+    <view class="rank_index">{{index+1}}</view>
+    <view class="mic_inf">
+      <view class="mic_name">{{item.name}}</view>
+      <view class="ar">{{item.ar[0].name}}-{{item.al.name}}</view>
+    </view>
+    <view class="iconfont icon-bofang rank_play"></view>
+    </navigator>
+  </view>
+</view>

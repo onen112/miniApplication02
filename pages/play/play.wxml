@@ -1,0 +1,4 @@
+<!-- pages/play/play.wxml -->
+<view class="viedo" hover-class="none" hover-stop-propagation="false">
+    <audio poster="{{poster}}" name="{{name}}" author="{{author}}" src="{{src}}" id="myAudio" controls loop></audio>
+</view>
